@@ -27,3 +27,12 @@ loop1:
     syscall
     move $t1, $v0
     j loop1
+
+find_fibonacci:
+    move $a1, $v0
+    li $s0, 0
+    li $s1, 1
+    ...
+    li $v0, 4
+    la $a0, line_break
+    syscall
