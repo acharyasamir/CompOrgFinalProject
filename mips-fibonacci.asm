@@ -36,3 +36,11 @@ find_fibonacci:
     li $v0, 4
     la $a0, line_break
     syscall
+
+loop2:
+    ...
+    j loop2
+
+end_program:
+    li $v0, 10
+    syscall
